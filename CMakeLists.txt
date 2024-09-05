@@ -6,6 +6,3 @@ set(CMAKE_CXX_STANDARD 11)
 
 # Add your source files
 add_executable(hello hello.cpp)
-
-# Specify the install location
-install(TARGETS hello DESTINATION bin)
